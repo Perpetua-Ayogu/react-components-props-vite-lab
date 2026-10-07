@@ -1,5 +1,7 @@
 import React from "react";
 
+// App supplies the blog name; navigation links point to the page and section IDs.
+// About and ArticleList provide targets; Contact's target exists only when mounted.
 function Header({ name }) {
   return (
     <header className="header">
